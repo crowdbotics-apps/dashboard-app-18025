@@ -36,3 +36,8 @@ class HomePage(models.Model):
 class XY(models.Model):
     "Generated Model"
     xy = models.BigIntegerField()
+
+
+class Address(models.Model):
+    "Generated Model"
+    street = models.BigIntegerField()
